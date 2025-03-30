@@ -1,0 +1,5 @@
+<%=contextPath%>/js/zimbraMail/mail/view/ZmComposeView.js?v=<%=vers%>
+<%=contextPath%>/js/zimbraMail/mail/view/ZmMailConfirmView.js?v=<%=vers%>
+<%=contextPath%>/js/zimbraMail/mail/controller/ZmComposeController.js?v=<%=vers%>
+<%=contextPath%>/js/zimbraMail/mail/controller/ZmConvController.js?v=<%=vers%>
+<%=contextPath%>/js/zimbraMail/mail/controller/ZmMailConfirmController.js?v=<%=vers%>

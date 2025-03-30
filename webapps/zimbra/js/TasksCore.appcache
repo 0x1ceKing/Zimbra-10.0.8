@@ -1,0 +1,3 @@
+<%=contextPath%>/js/zimbraMail/tasks/model/ZmTaskFolder.js?v=<%=vers%>
+<%=contextPath%>/js/zimbraMail/tasks/controller/ZmTaskListController.js?v=<%=vers%>
+<%=contextPath%>/js/zimbraMail/tasks/view/ZmTaskListView.js?v=<%=vers%>

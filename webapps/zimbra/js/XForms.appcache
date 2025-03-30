@@ -1,0 +1,13 @@
+<%=contextPath%>/js/ajax/dwt/events/DwtXFormsEvent.js?v=<%=vers%>
+<%=contextPath%>/js/ajax/dwt/events/DwtXModelEvent.js?v=<%=vers%>
+<%=contextPath%>/js/ajax/dwt/events/DwtIdleTimer.js?v=<%=vers%>
+<%=contextPath%>/js/ajax/dwt/xforms/XFormGlobal.js?v=<%=vers%>
+<%=contextPath%>/js/ajax/dwt/xforms/XModel.js?v=<%=vers%>
+<%=contextPath%>/js/ajax/dwt/xforms/XModelItem.js?v=<%=vers%>
+<%=contextPath%>/js/ajax/dwt/xforms/XForm.js?v=<%=vers%>
+<%=contextPath%>/js/ajax/dwt/xforms/XFormItem.js?v=<%=vers%>
+<%=contextPath%>/js/ajax/dwt/xforms/XFormChoices.js?v=<%=vers%>
+<%=contextPath%>/js/ajax/dwt/xforms/OSelect_XFormItem.js?v=<%=vers%>
+<%=contextPath%>/js/ajax/dwt/xforms/ButtonGrid.js?v=<%=vers%>
+<%=contextPath%>/js/ajax/dwt/xforms/DwtXFormDialog.js?v=<%=vers%>
+<%=contextPath%>/js/ajax/dwt/xforms/DynSelect_XFormItem.js?v=<%=vers%>

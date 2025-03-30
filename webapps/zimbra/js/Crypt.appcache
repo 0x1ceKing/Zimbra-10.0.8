@@ -1,0 +1,2 @@
+<%=contextPath%>/js/ajax/util/AjxMD5.js?v=<%=vers%>
+<%=contextPath%>/js/ajax/util/AjxSHA1.js?v=<%=vers%>

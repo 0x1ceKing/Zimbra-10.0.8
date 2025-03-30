@@ -1,0 +1,5 @@
+<%=contextPath%>/js/zimbraMail/share/model/ZmZimletBase.js?v=<%=vers%>
+<%=contextPath%>/js/zimbraMail/share/model/ZmZimletContext.js?v=<%=vers%>
+<%=contextPath%>/js/zimbraMail/share/model/ZmZimletMgr.js?v=<%=vers%>
+<%=contextPath%>/js/zimbraMail/share/model/ZmZimlet.js?v=<%=vers%>
+<%=contextPath%>/js/zimbraMail/share/controller/ZmZimletTreeController.js?v=<%=vers%>

@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<taglib xmlns="http://java.sun.com/xml/ns/j2ee"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:schemaLocation="http://java.sun.com/xml/ns/j2ee http://java.sun.com/xml/ns/j2ee/web-jsptaglibrary_2_0.xsd"
+        version="2.0">
+
+    <description>A tag library exercising SimpleTag handlers.</description>
+    <tlib-version>1.0</tlib-version>
+
+    <short-name>ZimbraMailTagLibrary</short-name>
+    <uri>com.zimbra.htmlclient</uri>
+
+    <tag-file>
+         <name>contactDisplayName</name>
+         <path>/WEB-INF/tags/contact/contactDisplayName.tag</path>
+     </tag-file>
+
+    <tag-file>
+         <name>ruby</name>
+         <path>/WEB-INF/tags/ruby.tag</path>
+     </tag-file>
+
+    <tag-file>
+        <name>spellcheck</name>
+        <path>/WEB-INF/tags/spellcheck.tag</path>
+    </tag-file>
+
+    <tag-file>
+        <name>attachments</name>
+        <path>/WEB-INF/tags/message/attachments.tag</path>
+    </tag-file>
+
+    <tag-file>
+        <name>viewimages</name>
+        <path>/WEB-INF/tags/message/viewimages.tag</path>
+    </tag-file>
+
+    <tag-file>
+        <name>body</name>
+        <path>/WEB-INF/tags/message/body.tag</path>
+    </tag-file>
+
+    <tag-file>
+        <name>certifiedMessage</name>
+        <path>/WEB-INF/tags/message/certifiedMessage.tag</path>
+    </tag-file>
+    
+    <tag-file>
+        <name>messageIframe</name>
+        <path>/WEB-INF/tags/message/messageIframe.tag</path>
+    </tag-file>
+
+    <tag-file>
+        <name>contactPhone</name>
+        <path>/WEB-INF/tags/contact/contactPhone.tag</path>
+    </tag-file>
+
+    <tag-file>
+        <name>contactIM</name>
+        <path>/WEB-INF/tags/contact/contactIM.tag</path>
+    </tag-file>
+
+    <tag-file>
+        <name>contactSectionInfo</name>
+        <path>/WEB-INF/tags/contact/contactSectionInfo.tag</path>
+    </tag-file>
+
+    <tag-file>
+        <name>contactAddress</name>
+        <path>/WEB-INF/tags/contact/contactAddress.tag</path>
+    </tag-file>
+
+    <tag-file>
+        <name>contactJobInfo</name>
+        <path>/WEB-INF/tags/contact/contactJobInfo.tag</path>
+    </tag-file>
+
+    <tag-file>
+        <name>contactEmail</name>
+        <path>/WEB-INF/tags/contact/contactEmail.tag</path>
+    </tag-file>
+
+    <tag-file>
+        <name>status</name>
+        <path>/WEB-INF/tags/infra/status.tag</path>
+    </tag-file>
+
+    <tag-file>
+        <name>handleError</name>
+        <path>/WEB-INF/tags/infra/handleError.tag</path>
+    </tag-file>
+
+    <tag-file>
+        <name>head</name>
+        <path>/WEB-INF/tags/head.tag</path>
+    </tag-file>
+
+    <tag-file>
+        <name>shareInfo</name>
+        <path>/WEB-INF/tags/shareInfo.tag</path>
+    </tag-file>
+
+    <tag-file>
+        <name>displayContact</name>
+        <path>/WEB-INF/tags/contact/displayContact.tag</path>
+    </tag-file>
+
+    <tag-file>
+        <name>displayMessage</name>
+        <path>/WEB-INF/tags/message/displayMessage.tag</path>
+    </tag-file>
+
+    <tag-file>
+        <name>messagePrintView</name>
+        <path>/WEB-INF/tags/message/messagePrintView.tag</path>
+    </tag-file>
+
+    <tag-file>
+        <name>img</name>
+        <path>/WEB-INF/tags/img.tag</path>
+    </tag-file>
+
+    <tag-file>
+        <name>imgurl</name>
+        <path>/WEB-INF/tags/imgurl.tag</path>
+    </tag-file>
+
+    <tag-file>
+        <name>imginfo</name>
+        <path>/WEB-INF/tags/imginfo.tag</path>
+    </tag-file>
+
+    <tag-file>
+        <name>skin</name>
+        <path>/WEB-INF/tags/infra/skin.tag</path>
+    </tag-file>
+
+    <tag-file>
+        <name>skinAndRedirect</name>
+        <path>/WEB-INF/tags/infra/skinAndRedirect.tag</path>
+    </tag-file>
+
+    <tag-file>
+        <name>miniTagImage</name>
+        <path>/WEB-INF/tags/miniTagImage.tag</path>
+    </tag-file>
+
+    <tag-file>
+        <name>flagImage</name>
+        <path>/WEB-INF/tags/flagImage.tag</path>
+    </tag-file>
+
+    <tag-file>
+        <name>calendarUrl</name>
+        <path>/WEB-INF/tags/calendar/calendarUrl.tag</path>
+    </tag-file>
+
+    <tag-file>
+        <name>multiDayPrintView</name>
+        <path>/WEB-INF/tags/calendar/multiDayPrintView.tag</path>
+    </tag-file>
+
+    <tag-file>
+        <name>multiDay</name>
+        <path>/WEB-INF/tags/calendar/multiDay.tag</path>
+    </tag-file>
+
+    <tag-file>
+        <name>monthPrintView</name>
+        <path>/WEB-INF/tags/calendar/monthPrintView.tag</path>
+    </tag-file>
+
+    <tag-file>
+        <name>monthAppt</name>
+        <path>/WEB-INF/tags/calendar/monthAppt.tag</path>
+    </tag-file>
+
+    <tag-file>
+        <name>dayAppt</name>
+        <path>/WEB-INF/tags/calendar/dayAppt.tag</path>
+    </tag-file>
+
+    <tag-file>
+        <name>miniCal</name>
+        <path>/WEB-INF/tags/calendar/miniCal.tag</path>
+    </tag-file>
+
+    <function>
+        <name>boolean</name>
+        <function-class>java.lang.Boolean</function-class>
+        <function-signature>java.lang.Boolean valueOf(java.lang.String)</function-signature>
+    </function>
+
+</taglib>
+
+        

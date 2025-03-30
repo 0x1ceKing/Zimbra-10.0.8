@@ -1,0 +1,3 @@
+.ImgItalics {background:url('@AppContextPath@/img/zimbra_fr.png?v=@jsVersion@') 0px 0px no-repeat;width:16px !important;height:16px !important;overflow:hidden;}
+.ImgBold {background:url('@AppContextPath@/img/zimbra_fr.png?v=@jsVersion@') 0px -17px no-repeat;width:16px !important;height:16px !important;overflow:hidden;}
+.ImgUnderline {background:url('@AppContextPath@/img/zimbra_fr.png?v=@jsVersion@') 0px -34px no-repeat;width:16px !important;height:16px !important;overflow:hidden;}

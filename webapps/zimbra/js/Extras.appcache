@@ -1,0 +1,14 @@
+<%=contextPath%>/js/ajax/util/AjxDlgUtil.js?v=<%=vers%>
+<%=contextPath%>/js/zimbraMail/core/ZmClientCmdHandler.js?v=<%=vers%>
+<%=contextPath%>/js/zimbraMail/share/ZmUploadManager.js?v=<%=vers%>
+<%=contextPath%>/js/zimbraMail/share/view/dialog/ZmChooseFolderDialog.js?v=<%=vers%>
+<%=contextPath%>/js/zimbraMail/share/view/dialog/ZmChooseAccountDialog.js?v=<%=vers%>
+<%=contextPath%>/js/zimbraMail/share/view/dialog/ZmDumpsterDialog.js?v=<%=vers%>
+<%=contextPath%>/js/zimbraMail/share/view/dialog/ZmRenameFolderDialog.js?v=<%=vers%>
+<%=contextPath%>/js/zimbraMail/share/view/dialog/ZmRenameTagDialog.js?v=<%=vers%>
+<%=contextPath%>/js/zimbraMail/share/view/dialog/ZmPasswordUpdateDialog.js?v=<%=vers%>
+<%=contextPath%>/js/zimbraMail/share/view/dialog/ZmPickTagDialog.js?v=<%=vers%>
+<%=contextPath%>/js/zimbraMail/share/view/dialog/ZmUploadDialog.js?v=<%=vers%>
+<%=contextPath%>/js/zimbraMail/share/view/dialog/ZmUploadConflictDialog.js?v=<%=vers%>
+<%=contextPath%>/js/zimbraMail/share/view/dialog/ZmDebugLogDialog.js?v=<%=vers%>
+<%=contextPath%>/js/zimbraMail/share/view/htmlEditor/ZmSpellChecker.js?v=<%=vers%>

@@ -1,0 +1,4 @@
+<%=contextPath%>/js/zimbraMail/docs/ZmDocsEditApp.js?v=<%=vers%>
+<%=contextPath%>/js/zimbraMail/docs/view/ZmDocsEditView.js?v=<%=vers%>
+<%=contextPath%>/js/zimbraMail/docs/controller/ZmDocsEditController.js?v=<%=vers%>
+<%=contextPath%>/js/zimbraMail/briefcase/model/ZmDocletMgr.js?v=<%=vers%>

@@ -1,0 +1,16 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Zimbra Remote Debug",
+            "request": "attach",
+            "hostName": "localhost",
+            "port": 5005,
+            "projectName": "zimbra-docker",
+            "sourcePaths": [
+                "${workspaceFolder}/webapps"
+            ],
+        }
+    ]
+}

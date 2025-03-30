@@ -1,0 +1,5 @@
+<%=contextPath%>/js/zimbraMail/share/controller/ZmImportExportController.js?v=<%=vers%>
+<%=contextPath%>/js/zimbraMail/share/view/ZmImportExportBaseView.js?v=<%=vers%>
+<%=contextPath%>/js/zimbraMail/share/view/ZmExportView.js?v=<%=vers%>
+<%=contextPath%>/js/zimbraMail/share/view/ZmImportView.js?v=<%=vers%>
+<%=contextPath%>/js/zimbraMail/prefs/view/ZmImportExportPage.js?v=<%=vers%>

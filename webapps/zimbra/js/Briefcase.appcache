@@ -1,0 +1,11 @@
+<%=contextPath%>/js/zimbraMail/briefcase/view/ZmBriefcaseBaseView.js?v=<%=vers%>
+<%=contextPath%>/js/zimbraMail/briefcase/view/ZmBriefcaseIconView.js?v=<%=vers%>
+<%=contextPath%>/js/zimbraMail/briefcase/view/ZmDetailListView.js?v=<%=vers%>
+<%=contextPath%>/js/zimbraMail/briefcase/view/ZmPreviewPaneView.js?v=<%=vers%>
+<%=contextPath%>/js/zimbraMail/briefcase/view/ZmNewBriefcaseDialog.js?v=<%=vers%>
+<%=contextPath%>/js/zimbraMail/briefcase/view/ZmBriefcaseTreeView.js?v=<%=vers%>
+<%=contextPath%>/js/zimbraMail/briefcase/view/dialog/ZmBriefcaseTabView.js?v=<%=vers%>
+<%=contextPath%>/js/zimbraMail/briefcase/view/dialog/ZmCheckinDialog.js?v=<%=vers%>
+<%=contextPath%>/js/zimbraMail/briefcase/controller/ZmBriefcaseController.js?v=<%=vers%>
+<%=contextPath%>/js/zimbraMail/briefcase/controller/ZmBriefcaseTreeController.js?v=<%=vers%>
+<%=contextPath%>/js/ajax/util/AjxPluginDetector.js?v=<%=vers%>

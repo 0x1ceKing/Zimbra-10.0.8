@@ -1,0 +1,12 @@
+<%=contextPath%>/js/zimbraMail/abook/view/ZmEditContactView.js?v=<%=vers%>
+<%=contextPath%>/js/zimbraMail/abook/view/ZmGroupView.js?v=<%=vers%>
+<%=contextPath%>/js/zimbraMail/abook/view/ZmContactsBaseView.js?v=<%=vers%>
+<%=contextPath%>/js/zimbraMail/abook/view/ZmContactGroupMenu.js?v=<%=vers%>
+<%=contextPath%>/js/zimbraMail/abook/view/ZmContactSplitView.js?v=<%=vers%>
+<%=contextPath%>/js/zimbraMail/abook/view/ZmNewAddrBookDialog.js?v=<%=vers%>
+<%=contextPath%>/js/zimbraMail/abook/view/ZmNewContactGroupDialog.js?v=<%=vers%>
+<%=contextPath%>/js/zimbraMail/abook/view/ZmContactQuickAddDialog.js?v=<%=vers%>
+<%=contextPath%>/js/zimbraMail/abook/controller/ZmContactListController.js?v=<%=vers%>
+<%=contextPath%>/js/zimbraMail/abook/controller/ZmContactController.js?v=<%=vers%>
+<%=contextPath%>/js/zimbraMail/abook/controller/ZmAddrBookTreeController.js?v=<%=vers%>
+<%=contextPath%>/js/zimbraMail/abook/view/ZmContactSearch.js?v=<%=vers%>

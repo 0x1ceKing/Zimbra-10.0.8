@@ -1,0 +1,2 @@
+<%=contextPath%>/js/ajax/debug/AjxDebug.js?v=<%=vers%>
+<%=contextPath%>/js/ajax/debug/AjxDebugXmlDocument.js?v=<%=vers%>

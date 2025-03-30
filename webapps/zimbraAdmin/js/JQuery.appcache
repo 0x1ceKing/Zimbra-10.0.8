@@ -1,0 +1,1 @@
+<%=contextPath%>/js/ajax/3rdparty/jquery/jquery_min.js?v=<%=vers%>

@@ -1,0 +1,1 @@
+<%=contextPath%>/js/ajax/3rdparty/chartjs/chart_umd.js?v=<%=vers%>

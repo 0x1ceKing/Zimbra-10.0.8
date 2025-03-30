@@ -1,0 +1,8 @@
+<%=contextPath%>/js/ajax/util/AjxUtil.js?v=<%=vers%>
+<%=contextPath%>/js/ajax/util/AjxStringUtil.js?v=<%=vers%>
+<%=contextPath%>/js/ajax/util/AjxTimedAction.js?v=<%=vers%>
+<%=contextPath%>/js/ajax/util/AjxText.js?v=<%=vers%>
+<%=contextPath%>/js/ajax/util/AjxTimezone.js?v=<%=vers%>
+<%=contextPath%>/js/ajax/net/AjxRpcRequest.js?v=<%=vers%>
+<%=contextPath%>/js/ajax/net/AjxRpc.js?v=<%=vers%>
+<%=contextPath%>/js/zimbraMail/docs/view/ZmDocsPreview.js?v=<%=vers%>

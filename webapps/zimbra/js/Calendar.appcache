@@ -1,0 +1,14 @@
+<%=contextPath%>/js/zimbraMail/calendar/view/ZmApptListView.js?v=<%=vers%>
+<%=contextPath%>/js/zimbraMail/calendar/view/ZmCalViewMgr.js?v=<%=vers%>
+<%=contextPath%>/js/zimbraMail/calendar/view/ZmCalBaseView.js?v=<%=vers%>
+<%=contextPath%>/js/zimbraMail/calendar/view/ZmCalColView.js?v=<%=vers%>
+<%=contextPath%>/js/zimbraMail/calendar/view/ZmCalDayView.js?v=<%=vers%>
+<%=contextPath%>/js/zimbraMail/calendar/view/ZmCalWorkWeekView.js?v=<%=vers%>
+<%=contextPath%>/js/zimbraMail/calendar/view/ZmCalWeekView.js?v=<%=vers%>
+<%=contextPath%>/js/zimbraMail/calendar/view/ZmCalMonthView.js?v=<%=vers%>
+<%=contextPath%>/js/zimbraMail/calendar/view/ZmCalScheduleView.js?v=<%=vers%>
+<%=contextPath%>/js/zimbraMail/calendar/view/ZmCalListView.js?v=<%=vers%>
+<%=contextPath%>/js/zimbraMail/calendar/view/ZmApptDeleteNotifyDialog.js?v=<%=vers%>
+<%=contextPath%>/js/zimbraMail/calendar/view/ZmCalPrintDialog.js?v=<%=vers%>
+<%=contextPath%>/js/zimbraMail/calendar/view/ZmCalItemView.js?v=<%=vers%>
+<%=contextPath%>/js/zimbraMail/calendar/controller/ZmCalendarTreeController.js?v=<%=vers%>

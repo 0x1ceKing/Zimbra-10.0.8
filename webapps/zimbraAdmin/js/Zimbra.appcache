@@ -1,0 +1,7 @@
+<%=contextPath%>/js/zimbra/csfe/ZmBatchCommand.js?v=<%=vers%>
+<%=contextPath%>/js/zimbra/csfe/ZmCsfeCommand.js?v=<%=vers%>
+<%=contextPath%>/js/zimbra/csfe/ZmCsfeException.js?v=<%=vers%>
+<%=contextPath%>/js/zimbra/csfe/ZmCsfeResult.js?v=<%=vers%>
+<%=contextPath%>/js/zimbra/common/ZmBaseSplashScreen.js?v=<%=vers%>
+<%=contextPath%>/js/zimbra/common/ZmErrorDialog.js?v=<%=vers%>
+<%=contextPath%>/js/zimbra/common/ZLoginFactory.js?v=<%=vers%>

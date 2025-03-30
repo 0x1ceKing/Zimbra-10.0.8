@@ -1,0 +1,15 @@
+<%=contextPath%>/js/zimbraMail/mail/view/ZmMailMsgView.js?v=<%=vers%>
+<%=contextPath%>/js/zimbraMail/calendar/controller/ZmCalItemComposeController.js?v=<%=vers%>
+<%=contextPath%>/js/zimbraMail/calendar/model/ZmRecurrence.js?v=<%=vers%>
+<%=contextPath%>/js/zimbraMail/calendar/model/ZmCalItem.js?v=<%=vers%>
+<%=contextPath%>/js/zimbraMail/calendar/view/ZmApptRecurDialog.js?v=<%=vers%>
+<%=contextPath%>/js/zimbraMail/calendar/view/ZmApptViewHelper.js?v=<%=vers%>
+<%=contextPath%>/js/zimbraMail/calendar/view/ZmCalItemEditView.js?v=<%=vers%>
+<%=contextPath%>/js/zimbraMail/calendar/view/ZmCalItemView.js?v=<%=vers%>
+<%=contextPath%>/js/zimbraMail/calendar/controller/ZmCalendarTreeController.js?v=<%=vers%>
+<%=contextPath%>/js/zimbraMail/tasks/view/ZmTaskView.js?v=<%=vers%>
+<%=contextPath%>/js/zimbraMail/tasks/view/ZmTaskMultiView.js?v=<%=vers%>
+<%=contextPath%>/js/zimbraMail/tasks/view/ZmTaskEditView.js?v=<%=vers%>
+<%=contextPath%>/js/zimbraMail/tasks/view/ZmNewTaskFolderDialog.js?v=<%=vers%>
+<%=contextPath%>/js/zimbraMail/tasks/controller/ZmTaskController.js?v=<%=vers%>
+<%=contextPath%>/js/zimbraMail/tasks/controller/ZmTaskTreeController.js?v=<%=vers%>

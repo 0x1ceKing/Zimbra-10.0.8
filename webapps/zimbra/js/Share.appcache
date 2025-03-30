@@ -1,0 +1,13 @@
+<%=contextPath%>/js/zimbraMail/share/model/ZmShare.js?v=<%=vers%>
+<%=contextPath%>/js/zimbraMail/share/model/ZmShareProxy.js?v=<%=vers%>
+<%=contextPath%>/js/zimbraMail/share/model/ZmMountpoint.js?v=<%=vers%>
+<%=contextPath%>/js/zimbraMail/share/view/ZmShareReply.js?v=<%=vers%>
+<%=contextPath%>/js/zimbraMail/share/view/ZmShareTreeView.js?v=<%=vers%>
+<%=contextPath%>/js/zimbraMail/share/view/dialog/ZmAcceptShareDialog.js?v=<%=vers%>
+<%=contextPath%>/js/zimbraMail/share/view/dialog/ZmDeclineShareDialog.js?v=<%=vers%>
+<%=contextPath%>/js/zimbraMail/share/view/dialog/ZmSharePropsDialog.js?v=<%=vers%>
+<%=contextPath%>/js/zimbraMail/share/view/dialog/ZmShareSearchDialog.js?v=<%=vers%>
+<%=contextPath%>/js/zimbraMail/share/view/dialog/ZmRevokeShareDialog.js?v=<%=vers%>
+<%=contextPath%>/js/zimbraMail/share/view/dialog/ZmFindnReplaceDialog.js?v=<%=vers%>
+<%=contextPath%>/js/zimbraMail/share/view/dialog/ZmFolderNotifyDialog.js?v=<%=vers%>
+<%=contextPath%>/js/zimbraMail/share/view/dialog/ZmTimezonePicker.js?v=<%=vers%>

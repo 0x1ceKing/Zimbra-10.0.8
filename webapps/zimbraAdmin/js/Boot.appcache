@@ -1,0 +1,9 @@
+<%=contextPath%>/js/ajax/3rdparty/modernizr/modernizr.js?v=<%=vers%>
+<%=contextPath%>/js/ajax/boot/AjxJson.js?v=<%=vers%>
+<%=contextPath%>/js/ajax/boot/AjxEnv.js?v=<%=vers%>
+<%=contextPath%>/js/ajax/boot/AjxCallback.js?v=<%=vers%>
+<%=contextPath%>/js/ajax/boot/AjxLoader.js?v=<%=vers%>
+<%=contextPath%>/js/ajax/boot/AjxPackage.js?v=<%=vers%>
+<%=contextPath%>/js/ajax/boot/AjxTemplate.js?v=<%=vers%>
+<%=contextPath%>/js/ajax/boot/AjxTemplateCompiler.js?v=<%=vers%>
+<%=contextPath%>/js/ajax/boot/AjxDispatcher.js?v=<%=vers%>

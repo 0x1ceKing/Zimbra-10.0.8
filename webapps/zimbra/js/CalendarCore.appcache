@@ -1,0 +1,13 @@
+<%=contextPath%>/js/zimbraMail/calendar/model/ZmCalendar.js?v=<%=vers%>
+<%=contextPath%>/js/zimbraMail/calendar/model/ZmAppt.js?v=<%=vers%>
+<%=contextPath%>/js/zimbraMail/calendar/model/ZmApptList.js?v=<%=vers%>
+<%=contextPath%>/js/zimbraMail/calendar/model/ZmApptCache.js?v=<%=vers%>
+<%=contextPath%>/js/zimbraMail/calendar/model/ZmFreeBusyCache.js?v=<%=vers%>
+<%=contextPath%>/js/zimbraMail/abook/model/ZmContact.js?v=<%=vers%>
+<%=contextPath%>/js/zimbraMail/abook/model/ZmContactList.js?v=<%=vers%>
+<%=contextPath%>/js/zimbraMail/calendar/model/ZmResource.js?v=<%=vers%>
+<%=contextPath%>/js/zimbraMail/calendar/model/ZmResourceList.js?v=<%=vers%>
+<%=contextPath%>/js/zimbraMail/calendar/view/ZmApptViewHelper.js?v=<%=vers%>
+<%=contextPath%>/js/zimbraMail/calendar/controller/ZmCalItemComposeController.js?v=<%=vers%>
+<%=contextPath%>/js/zimbraMail/calendar/controller/ZmApptComposeController.js?v=<%=vers%>
+<%=contextPath%>/js/zimbraMail/calendar/controller/ZmCalViewController.js?v=<%=vers%>

@@ -1,0 +1,6 @@
+<%=contextPath%>/js/zimbraMail/abook/model/ZmAddrBook.js?v=<%=vers%>
+<%=contextPath%>/js/zimbraMail/abook/model/ZmContact.js?v=<%=vers%>
+<%=contextPath%>/js/zimbraMail/abook/model/ZmContactList.js?v=<%=vers%>
+<%=contextPath%>/js/zimbraMail/abook/view/ZmContactsHelper.js?v=<%=vers%>
+<%=contextPath%>/js/zimbraMail/abook/view/ZmContactPicker.js?v=<%=vers%>
+<%=contextPath%>/js/zimbraMail/abook/controller/ZmHabTreeController.js?v=<%=vers%>

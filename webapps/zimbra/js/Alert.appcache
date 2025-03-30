@@ -1,0 +1,7 @@
+<%=contextPath%>/js/ajax/util/AjxPluginDetector.js?v=<%=vers%>
+<%=contextPath%>/js/zimbraMail/share/view/ZmAlert.js?v=<%=vers%>
+<%=contextPath%>/js/zimbraMail/share/view/ZmAccountAlert.js?v=<%=vers%>
+<%=contextPath%>/js/zimbraMail/share/view/ZmAppAlert.js?v=<%=vers%>
+<%=contextPath%>/js/zimbraMail/share/view/ZmBrowserAlert.js?v=<%=vers%>
+<%=contextPath%>/js/zimbraMail/share/view/ZmDesktopAlert.js?v=<%=vers%>
+<%=contextPath%>/js/zimbraMail/share/view/ZmSoundAlert.js?v=<%=vers%>
