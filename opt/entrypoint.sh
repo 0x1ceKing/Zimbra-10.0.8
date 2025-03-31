@@ -163,6 +163,9 @@ EOF
     echo "Installing Zimbra Collaboration and injecting the configuration"
     /opt/zimbra/libexec/zmsetup.pl -c /opt/zimbra-install/installZimbraScript
 
+    # Custom Script
+    # Tại sao lại inject Debugger tại đây. Do Debugger cũng là add trong config
+    # Add ở ngoài vòng if này sau khi restart docker lại service sẽ bị lỗi do config bị chồng chéo
     #   Setup debugging for the Zimbra Collaboration
     echo "Setting up the Debug Zimbra Collaboration"
     su - zimbra -c 'zmcontrol stop'
@@ -187,10 +190,15 @@ fi
 
 echo "You can access now to your Zimbra Collaboration Server"
 
-# Copy Zimbra Jar File
-echo "Copy Zimbra Jar to $ZIMBRA_JAR_DIR"
-mkdir "$ZIMBRA_JAR_DIR"
-find /opt/zimbra/ -type f -name "*.jar" -exec cp {} $ZIMBRA_JAR_DIR 2>/dev/null \;
+# Custom Script
+# Copy Zimbra Jar File => If $ZIMBRA_JAR_DIR Folder Not Exist
+if [ ! -d "$ZIMBRA_JAR_DIR" ]; then
+    echo "Copy Zimbra Jar to $ZIMBRA_JAR_DIR"
+    mkdir -p "$ZIMBRA_JAR_DIR"
+    find /opt/zimbra/ -type f -name "*.jar" -exec cp {} $ZIMBRA_JAR_DIR 2>/dev/null \;
+else
+    echo "Zimbra Jar Folder Exist"
+fi
 
 # TODO: Maybe tail the logs of zimbra instead of sleep infinity
 cd /opt/zimbra/
