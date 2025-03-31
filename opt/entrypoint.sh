@@ -163,6 +163,14 @@ EOF
     echo "Installing Zimbra Collaboration and injecting the configuration"
     /opt/zimbra/libexec/zmsetup.pl -c /opt/zimbra-install/installZimbraScript
 
+    #   Setup debugging for the Zimbra Collaboration
+    echo "Setting up the Debug Zimbra Collaboration"
+    su - zimbra -c 'zmcontrol stop'
+    cp /opt/zimbra/libexec/zmmailboxdmgr /opt/zimbra/libexec/zmmailboxdmgr.old
+    cp /opt/zimbra/libexec/zmmailboxdmgr.unrestricted /opt/zimbra/libexec/zmmailboxdmgr
+    su - zimbra -c 'zmlocalconfig -e mailboxd_java_options="`zmlocalconfig -m nokey mailboxd_java_options` -Xdebug -Xnoagent -Djava.compiler=NONE -agentlib:jdwp=transport=dt_socket,server=y,suspend=n,address=*:5005"'
+    su - zimbra -c 'zmcontrol start'
+
     echo "Removing the installZimbraScript file"
     rm -rf /opt/zimbra-install/
 else
@@ -177,22 +185,12 @@ else
     fi
 fi
 
-#   Setup debugging for the Zimbra Collaboration
-echo "Setting up the Debug Zimbra Collaboration"
-su - zimbra -c 'zmcontrol stop'
-cp /opt/zimbra/libexec/zmmailboxdmgr /opt/zimbra/libexec/zmmailboxdmgr.old
-cp /opt/zimbra/libexec/zmmailboxdmgr.unrestricted /opt/zimbra/libexec/zmmailboxdmgr
-su - zimbra -c 'zmlocalconfig -e mailboxd_java_options="`zmlocalconfig -m nokey mailboxd_java_options` -Xdebug -Xnoagent -Djava.compiler=NONE -agentlib:jdwp=transport=dt_socket,server=y,suspend=n,address=*:5005"'
-su - zimbra -c 'zmcontrol start'
-
+echo "You can access now to your Zimbra Collaboration Server"
 
 # Copy Zimbra Jar File
 echo "Copy Zimbra Jar to $ZIMBRA_JAR_DIR"
 mkdir "$ZIMBRA_JAR_DIR"
 find /opt/zimbra/ -type f -name "*.jar" -exec cp {} $ZIMBRA_JAR_DIR 2>/dev/null \;
-
-
-echo "You can access now to your Zimbra Collaboration Server"
 
 # TODO: Maybe tail the logs of zimbra instead of sleep infinity
 cd /opt/zimbra/
