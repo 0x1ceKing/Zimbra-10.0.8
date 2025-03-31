@@ -1,7 +1,6 @@
 #################################################################
 # Dockerfile to build Zimbra Collaboration 10.0.8 container images
 # Based on Ubuntu 20.04
-# Original created by Jorge de la Cruz
 #################################################################
 FROM zimbra/zm-base-os:devcore-ubuntu-20.04 AS builder
 

@@ -1,4 +1,0 @@
-<%=contextPath%>/js/zimbraMail/prefs/model/ZmPrefPage.js?v=<%=vers%>
-<%=contextPath%>/js/zimbraMail/prefs/model/ZmPersona.js?v=<%=vers%>
-<%=contextPath%>/js/zimbraMail/prefs/controller/ZmPrefPageTreeController.js?v=<%=vers%>
-<%=contextPath%>/js/ajax/dwt/widgets/DwtCalendar.js?v=<%=vers%>

@@ -6,6 +6,7 @@ services:
     hostname: ${HOSTNAME}
     environment:
       PASSWORD: ${PASSWORD}
+      ZIMBRA_JAR_DIR: ${ZIMBRA_JAR_DIR}
     ports:
       - '25:25'
       - '465:465'

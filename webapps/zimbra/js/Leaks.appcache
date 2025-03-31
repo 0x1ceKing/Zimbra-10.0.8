@@ -1,1 +1,0 @@
-<%=contextPath%>/js/ajax/debug/AjxLeakDetector.js?v=<%=vers%>
