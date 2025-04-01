@@ -112,4 +112,4 @@ su - zimbra -c 'zmcontrol start'
 
 - [Zimbra 漏洞分析之路-安全KER - 安全资讯平台](https://www.anquanke.com/post/id/220239)
 
-- **Note: Cảm ơn `Supadumb` đã hỗ trợ mình nhiều trong việc setup**
+- **Note: Cảm ơn `Supadumb` đã hỗ trợ mình nhiều trong việc setup Zimbra**
