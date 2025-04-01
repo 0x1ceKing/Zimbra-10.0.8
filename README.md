@@ -74,9 +74,18 @@ su - zimbra -c 'zmcontrol start'
     
 - **Từ đó ta thay đổi `entrypoint.sh` cho phù hợp:**
     
-    ![image.png](README/image%207.png)
+    ```bash
+    # Copy Zimbra Jar File => If $ZIMBRA_JAR_DIR Folder Not Exist
+    if [ ! -d "$ZIMBRA_JAR_DIR" ]; then
+        echo "Copy Zimbra Jar to $ZIMBRA_JAR_DIR"
+        mkdir -p "$ZIMBRA_JAR_DIR"
+        find /opt/zimbra/ -type f -name "*.jar" -exec cp {} $ZIMBRA_JAR_DIR 2>/dev/null \;
+    else
+        echo "Zimbra Jar Folder Exist"
+    fi
+    ```
     
-- Copy Folder chứa toàn bộ file `.jar` :
+- **Ở đây mình đã copy toàn bộ File `.jar` ra một folder có trên trùng với env `$ZIMBRA_JAR_DIR` => Copy Folder chứa toàn bộ file `.jar` :**
 
 ![image.png](README/image%208.png)
 
