@@ -1,6 +1,4 @@
-# Zimbra
-
-## Zimbra Setup Debug Blog
+# Zimbra Setup Debug 
 
 ### Tìm và dựng Docker có sẵn
 
